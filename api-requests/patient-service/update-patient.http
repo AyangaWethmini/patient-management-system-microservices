@@ -1,0 +1,9 @@
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "Yenuli Laknara",
+  "email": "ayanga@gmail.com",
+  "address": "233, park street, colombo",
+  "dateOfBirth": "2002-05-02"
+}
