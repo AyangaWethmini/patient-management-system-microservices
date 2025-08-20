@@ -1,5 +1,11 @@
-### GET request to example server
-GET https://examples.http-client.intellij.net/get
-    ?generated-in=IntelliJ IDEA
+### Create billing account
+GRPC localhost:9091/BillingService/CreateBillingAccount
+
+
+{
+  "patientId" : "125364",
+  "name" : "Lola Kuchi",
+  "email": "lola@gmail.com"
+}
 
 ###
